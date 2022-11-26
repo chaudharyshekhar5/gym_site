@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+BODY {
+  background-color: rgb(252, 251, 251);
+  margin: 0px;
+}
+.navbar {
+  background-image: url(../images/backo.jpg);
+  height: 700px;
+  background-repeat: no-repeat;
+  text-align: center;
+  justify-content: center;
+}
+.navbar a {
+  color: white;
+  text-shadow: 2px 1px red;
+  margin-left: 10px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  float: left;
+  text-decoration: none;
+  height: 50px;
+}
+.items:hover {
+  font-size: 30px;
+  color: black;
+  text-shadow: 2px 2px yellowgreen;
+}
+.right {
+  color: white;
+  float: right;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-size: 45px;
+  margin-right: 10px;
+}
+.right h1 {
+  text-shadow: 10px 2px orangered;
+  margin-right: 20px;
+}
+.midpart {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-family: bold;
+  font-size: 45px;
+}
+.midpart > h1 {
+  text-shadow: 2px 2px orange;
+}
+.midpart2 h2 {
+  text-shadow: 2px 1px orangered;
+}
+.midpart2 h1 {
+  text-shadow: 2px 1px white;
+}
+.midpart2 {
+  background-image: url(../images/registration.jpg);
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: red;
+}
+.midpart2 h1 {
+  text-align: center;
+}
+.midpart2 .cards {
+  border: 2px solid violet;
+  margin: 30px;
+  padding: 20px;
+  background-color: wheat;
+  border-radius: 15px;
+}
+.midpart3 {
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+  text-shadow: 2px 2px red;
+}
+.midpart2 img {
+  border-radius: 15px;
+  padding: 5px;
+  width: 250px;
+  height: 200px;
+}
+.midpart4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.midpart4 .cards {
+  margin: 25px;
+  border: 2px solid white;
+}
+.midpart4 img {
+  width: 100px;
+  height: 100px;
+}
+.download {
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  background-image: url(../images/blue\ background.webp);
+  padding: 50px;
+  color: yellow;
+}
+.download_btn {
+  text-decoration: none;
+  border: 1px solid yellow;
+  padding: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: violet;
+  justify-self: center;
+  text-align: center;
+}
+.special_offer {
+  font-size: 20px;
+  margin-top: 35px;
+  text-align: center;
+  justify-content: center;
+  background-image: url(../images/blue\ background.webp);
+  padding: 50px;
+  color: yellow;
+}
+.signup_btn {
+  color: violet;
+  text-decoration: none;
+  border: 1px solid yellow;
+  padding: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  justify-self: center;
+  text-align: center;
+}
+.midpart5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.video {
+  margin-left: 50px;
+}
+.video h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 150px;
+  font-size: 35px;
+  text-shadow: 2px 2px green;
+}
+
+.google_form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 250px;
+  font-size: 35px;
+  text-shadow: 2px 2px green;
+}
+.google_form input {
+  margin-top: 22px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.google_form form {
+  margin-top: 25px;
+}
+.google_form a {
+  text-decoration: none;
+  margin-top: 25px;
+  border: 2px solid;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 25px;
+  background-color: yellow;
+}
+@media (max-width: 609px) {
+  body {
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 577px) {
+  body {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 537px) {
+  body {
+    margin-left: 45px;
+  }
+}
+@media (max-width: 487px) {
+  body {
+    margin-left: 60px;
+  }
+}
+@media (max-width: 453px) {
+  body {
+    margin-left: 70px;
+  }
+}
+@media (max-width: 450px) {
+  body {
+    margin-left: 20px;
+    margin-right: 0px;
+    width: 450px;
+  }
+}
+@media (max-width: 400px) {
+  body {
+    margin-left: 35px;
+    margin-right: 0px;
+    width: 400px;
+  }
+}
+@media (max-width: 350px) {
+  body {
+    margin-left: 50px;
+    margin-right: 0px;
+    width: 350px;
+  }
+}
